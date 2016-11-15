@@ -35,6 +35,6 @@ To illustrate how we use front-end servers in our client projects, we've made a 
 * Demo Server Flask (Python)
 * [Demo Server .NET Core](https://github.com/voorhoede/dotnetcore-front-end-guide) (C#)
 
----
+
 
 This page is auto-formatted using the [voorhoede-ocelot-formatter](https://github.com/voorhoede/voorhoede-ocelot-formatter).
