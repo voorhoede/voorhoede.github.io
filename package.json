@@ -9,7 +9,7 @@
     "build:index": "formatter README.md --output dist/index.html",
     "build:readme": "ncp README.md dist/README.md",
     "start": "http-server './dist' -c-1 -o -p 6736",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified\""
   },
   "repository": {
     "type": "git",

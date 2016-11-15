@@ -1,0 +1,24 @@
+sudo: false
+language: node_js
+node_js:
+- '6.0'
+cache:
+  directories:
+  - node_modules
+branches:
+  only:
+  - develop
+notifications:
+  email: false
+before_script:
+- npm prune
+script:
+- npm run build
+- npm test
+after_success:
+- bash ./scripts/deploy.sh
+env:
+  global:
+  - GH_USER: voorhoede
+  - GH_REPO: voorhoede.github.io
+  - secure: Ep6POE/GcG06jSqsL8MYpstZR5a5VCnDTMdr73f/MmCIKgRwWxqxiCPzfrsS3OX8+aqASU3dVrwWyn5K+kAtqmhxbct/BmwGvw3F/qrzlalruR9fZSb2ik6goNUGxLUPApo8dG76rvFwc91wVDQy54LwFXsHNBKoaWjYxDq+lVaBbv7VzT6yh7JwNlqggSPsJ7sSw0h8HId0szpjeugFwu07Th6YXTbeGfjHqrXZVk3yserD0HaQ5P2RfFnhVgyP8Q9oCvPLJZ08w0eRn7UFB7fxM0AYBM/NkfQcMhtngw9BO+6BMUs8jB45qUNrZ0yBoWKxqLv196nooaBQZT3DByIHJPEFkiljJAdDPtOc9xV1IsiYqdAU9SzG3joyNtYYf84CWeOHOC/HNAUJ/dFILqBVcfO4oWBBx4yQy31AQoVdyiSsZsnpO8I+hUS1zvzLPfAutW460RLGe7JgrIT/08NVxeQxBUXniLwlCBN+G53nfejNCtZSKKSVdz4iJNLh0ljkL3YhS13sy0BOXd2ZjstokgQKu2NPvXHrStRM9a2hCkqi7dEMp2m+R8dnh7gRAWK1xRCB3t+4GfvA7knN4Ju3J5MZLIbchgiKKOKpqcj4MX/RVlM2SEfAyXR+nCRyJHAMqRx5KKyGaWCwFNVUVvWu3yyqLCnPDQrBYT1dJTE=
