@@ -11,9 +11,9 @@ These tools help us effectively setup and structure our projects:
 
 * [Front-end Guide](https://github.com/voorhoede/front-end-guide)
 * [Email Template Guide](https://github.com/voorhoede/email-template-guide)
-* [Front-end Tooling Recipes](https://github.com/voorhoede/front-end-tooling-recipes)
+* [Front-end Tooling Recipes](https://voorhoede.github.io/front-end-tooling-recipes/)
 * [Fastatic](https://github.com/voorhoede/fastatic)
-* [Demo viewer](https://github.com/voorhoede/demo-viewer)
+* [Demo viewer](https://voorhoede.github.io/demo-viewer/)
 * [Demo linker](https://github.com/voorhoede/demo-linker)
 
 ## Code Quality Guides
@@ -38,4 +38,4 @@ To illustrate how we use front-end servers in our client projects, we've made a 
 
 
 
-This page is auto-formatted using the [voorhoede-ocelot-formatter](https://github.com/voorhoede/voorhoede-ocelot-formatter).
+This page is auto-formatted using the [voorhoede-ocelot-formatter](https://voorhoede.github.io/voorhoede-ocelot-formatter/).
