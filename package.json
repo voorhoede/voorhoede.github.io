@@ -1,0 +1,26 @@
+{
+  "name": "voorhoede.github.io",
+  "version": "1.0.0",
+  "description": "A collection of our open source projects, tools and best practices.",
+  "author": "De Voorhoede (https://voorhoede.nl/)",
+  "scripts": {
+    "copy-assets": "cp -R ./src/assets ./src/build",
+    "build": "formatter ./src/README.md --output ./build/index.html && npm run copy-assets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/voorhoede/voorhoede.github.io.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voorhoede/voorhoede.github.io/issues"
+  },
+  "homepage": "https://github.com/voorhoede/voorhoede.github.io#readme",
+  "dependencies": {
+    "cpy-cli": "^2.0.0",
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "voorhoede-ocelot-formatter": "^0.5.1"
+  }
+}
