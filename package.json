@@ -4,7 +4,7 @@
   "description": "A collection of our open source projects, tools and best practices.",
   "author": "De Voorhoede (https://voorhoede.nl/)",
   "scripts": {
-    "copy-assets": "cp -R ./src/assets ./src/build",
+    "copy-assets": "cpy '**/*' '../../build/assets' --cwd=src/assets --parents",
     "build": "formatter ./src/README.md --output ./build/index.html && npm run copy-assets"
   },
   "repository": {
@@ -16,11 +16,10 @@
     "url": "https://github.com/voorhoede/voorhoede.github.io/issues"
   },
   "homepage": "https://github.com/voorhoede/voorhoede.github.io#readme",
-  "dependencies": {
-    "cpy-cli": "^2.0.0",
-    "mkdirp": "^0.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "cpy-cli": "^2.0.0",
+    "mkdirp": "^0.5.1",
     "voorhoede-ocelot-formatter": "^0.5.1"
   }
 }
