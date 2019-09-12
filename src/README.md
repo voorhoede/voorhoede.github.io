@@ -5,6 +5,13 @@
 
 De Voorhoede is a front-end development agency based in Amsterdam. We [build front-ends for all kinds of projects](https://www.voorhoede.nl/en/portfolio/), we [write about front-end](https://www.voorhoede.nl/en/blog/), and here we share our front-end tools, experiments and best practices.
 
+## Front-end components
+
+* [vue-lazy-load](https://github.com/voorhoede/vue-lazy-load)
+* [vue-fixed-ratio](https://github.com/voorhoede/vue-fixed-ratio)
+* [vue-dato-image](https://github.com/voorhoede/vue-dato-image)
+* [vue-accordion](https://github.com/voorhoede/vue-accordion)
+
 ## Front-end Tools
 
 These tools help us effectively setup and structure our projects:
